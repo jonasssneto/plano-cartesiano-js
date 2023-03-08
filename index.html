@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <title>project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+  <body>
+    <div class="box">
+      <div class="input-group">
+        <input
+          placeholder="coordenada X"
+          type="number"
+          id="input-x"
+          name="input-x"
+        />
+      </div>
+      <div class="input-group">
+        <input
+          placeholder="coordenada Y"
+          type="number"
+          id="input-y"
+          name="input-y"
+        />
+      </div>
+      <button class="button" onclick="adicionarCoordenada()">Adicionar</button>
+    </div>
+
+    <div class="box2">
+      <ul id="listaPontos"></ul>
+    </div>
+
+    <footer>
+      <p id="area"></p>
+
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
